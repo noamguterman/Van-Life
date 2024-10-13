@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+.site-wrapper, main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 html,
 body {
     margin: 0;
@@ -76,8 +81,8 @@ main {
 }
 
 footer {
-    background-color: #161616;
-    color: #aaaaaa;
+    /* background-color: #161616; */
+    /* color: #aaaaaa; */
     height: 74px;
     display: flex;
     flex-shrink: 0;
@@ -297,9 +302,6 @@ i[class*="van-type-"] {
 .van-detail-container .back-button {
     color: black;
     text-decoration: none;
-}
-
-.van-detail-container .back-button:visited {
 }
 
 .van-detail-container .back-button span {
